@@ -3,7 +3,7 @@ on: [push]
 env:
   DOCKER_IMAGE: resume:latest
 jobs:
-  lint:
+  docker:
     runs-on: ubuntu-22.04
     steps:
       - name: Check out repository code
